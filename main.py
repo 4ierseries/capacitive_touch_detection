@@ -1,5 +1,5 @@
 def on_button_pressed_a():
-    global time
+    global time 
     basic.show_leds("""
         # # . . .
         # . . . .
@@ -39,4 +39,4 @@ def on_forever():
             music.stop_all_sounds()
             basic.clear_screen()
             break
-basic.forever(on_forever)
+basic.forever(on_forever) 
